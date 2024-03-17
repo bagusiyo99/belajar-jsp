@@ -7,16 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> hayyysss</h1>
+<h1> coba </h1>
+<%
 
-<%! int x = 22; 
-int y = 44; %>
-
-<%= new String ("mantao") %>
+int x = 25;
+// out.print("coba");
+ out.print(x);
+ 
+ %>
 <br>
 
-<jsp:include page="file1.txt"></jsp:include>
-<br>
-<jsp:include page="file2.txt"></jsp:include>
+
 </body>
 </html>
